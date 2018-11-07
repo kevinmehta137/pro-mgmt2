@@ -1,4 +1,4 @@
 ﻿{
-    "connectionString": "mongodb://<dbuser>:<dbpassword>@ds153593.mlab.com:53593/heroku_w4fjgk74",
+    "connectionString": "mongodb://localhost/pro-manager",
     "secret": "Yo Yo Yo"
 }
