@@ -1,4 +1,4 @@
 ﻿{
-    "connectionString": "mongodb://localhost/pro-manager",
+    "connectionString": "mongodb://kevin:kevin123@ds155313.mlab.com:55313/heroku_nrzrr5t8",
     "secret": "Yo Yo Yo"
 }

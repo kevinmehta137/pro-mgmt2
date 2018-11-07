@@ -36,7 +36,7 @@ app.use(errorHandler);
 // Connect to the Mongo DB
 mongoose.connect(
   process.env.MONGODB_URI ||
-  "mongodb://localhost/pro-manager"
+  "mongodb://kevin:kevin123@ds155313.mlab.com:55313/heroku_nrzrr5t8"
 );
 
 // Start the API server
