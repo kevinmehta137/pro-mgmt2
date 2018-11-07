@@ -1,4 +1,4 @@
-﻿//import path from './client/build';
+﻿//require('path')();
 const express = require("express");
 const app = express();
 const cors = require('cors');
@@ -25,7 +25,7 @@ if (process.env.NODE_ENV === "production") {
 }
 
 // global error handler
-// app.use(errorHandler);
+app.use(errorHandler);
 // app.get("*", (req, res) => {
 //   res.sendFile(path.join(__dirname, "client", "public", "index.html"));
 // });
