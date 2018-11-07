@@ -1,9 +1,9 @@
 {
-  "main.css": "/static/css/main.33f70249.chunk.css",
-  "main.js": "/static/js/main.0971e531.chunk.js",
-  "main.js.map": "/static/js/main.0971e531.chunk.js.map",
-  "static/js/1.87906195.chunk.js": "/static/js/1.87906195.chunk.js",
-  "static/js/1.87906195.chunk.js.map": "/static/js/1.87906195.chunk.js.map",
+  "main.css": "/static/css/main.d85f9ca8.chunk.css",
+  "main.js": "/static/js/main.bf630070.chunk.js",
+  "main.js.map": "/static/js/main.bf630070.chunk.js.map",
+  "static/js/1.ba5feee4.chunk.js": "/static/js/1.ba5feee4.chunk.js",
+  "static/js/1.ba5feee4.chunk.js.map": "/static/js/1.ba5feee4.chunk.js.map",
   "runtime~main.js": "/static/js/runtime~main.229c360f.js",
   "runtime~main.js.map": "/static/js/runtime~main.229c360f.js.map",
   "static/media/RegisterPage.css": "/static/media/l.1387c6aa.png",
@@ -11,8 +11,8 @@
   "static/media/newprojectpage.css": "/static/media/temp.b7389f6e.jpg",
   "static/media/main.css": "/static/media/log1.6d047e7b.png",
   "static/media/Flat design illustration your design icons for online.png": "/static/media/Flat design illustration your design icons for online.5333b0e0.png",
-  "static/css/main.33f70249.chunk.css.map": "/static/css/main.33f70249.chunk.css.map",
+  "static/css/main.d85f9ca8.chunk.css.map": "/static/css/main.d85f9ca8.chunk.css.map",
   "index.html": "/index.html",
-  "precache-manifest.94f5316596e486fe3d9951407ad700cd.js": "/precache-manifest.94f5316596e486fe3d9951407ad700cd.js",
+  "precache-manifest.d3bf5e8e63a65807b7ad06419f5090ef.js": "/precache-manifest.d3bf5e8e63a65807b7ad06419f5090ef.js",
   "service-worker.js": "/service-worker.js"
 }
