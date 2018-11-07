@@ -7,16 +7,13 @@
         "type": "git",
         "url": "https://github.com/cornflourblue/node-mongo-registration-login-api.git"
     },
-    
     "scripts": {
-    
         "start": "node server.js",
         "pro-mgmt": "cd pro-mgmt && npm run start",
         "install": "cd pro-mgmt && yarn install",
         "build": "cd pro-mgmt  && npm run build",
         "heroku-postbuild": "npm run build"
-      },
-    
+    },
     "dependencies": {
         "bcryptjs": "^2.4.3",
         "body-parser": "^1.18.3",
