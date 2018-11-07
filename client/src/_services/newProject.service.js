@@ -15,7 +15,7 @@ function getAll() {
         // headers: authHeader()
     };
 
-    return fetch(`http://localhost:3001/createProject/`, requestOptions).then(handleResponse);
+    return fetch(`http://localhost:5000/createProject/`, requestOptions).then(handleResponse);
 }
 
 function getById(id) {
@@ -24,7 +24,7 @@ function getById(id) {
         // headers: authHeader()
     };
 
-    return fetch(`http://localhost:3001/projects/${id}`, requestOptions).then(handleResponse);
+    return fetch(`http://localhost:5000/projects/${id}`, requestOptions).then(handleResponse);
 }
 
 function createProject(newProject) {
@@ -34,7 +34,7 @@ function createProject(newProject) {
         body: JSON.stringify(newProject)
     };
 
-    return fetch(`http://localhost:3001/createProject/createProject`, requestOptions).then(handleResponse);
+    return fetch(`http://localhost:5000/createProject/createProject`, requestOptions).then(handleResponse);
 }
 
 function update(newProject) {
@@ -44,7 +44,7 @@ function update(newProject) {
         body: JSON.stringify(newProject)
     };
 
-    return fetch(`http://localhost:3001/projects/${newProject.id}`, requestOptions).then(handleResponse);;
+    return fetch(`http://localhost:5000/projects/${newProject.id}`, requestOptions).then(handleResponse);;
 }
 
 // prefixed function name with underscore because delete is a reserved word in javascript
@@ -54,7 +54,7 @@ function _delete(id) {
         // headers: authHeader()
     };
 
-    return fetch(`http://localhost:3001/projects/${id}`, requestOptions).then(handleResponse);
+    return fetch(`http://localhost:5000/projects/${id}`, requestOptions).then(handleResponse);
 }
 
 function handleResponse(response) {
