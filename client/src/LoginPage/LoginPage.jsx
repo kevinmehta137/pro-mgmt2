@@ -47,7 +47,8 @@ class LoginPage extends React.Component {
             <BodyClassName className='loginPageClass'>
             <div className="container">
                 <div className="jumbotron logback1 ">
-                    <h2>Login</h2>
+                    <div className="logo">Pro-Manager</div>
+                        <h2>Login</h2>
                     <form name="form" onSubmit={this.handleSubmit}>
                         <div className={'form-group' + (submitted && !username ? ' has-error' : '')}>
                             <label htmlFor="username">Username</label>
