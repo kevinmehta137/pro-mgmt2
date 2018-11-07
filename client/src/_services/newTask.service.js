@@ -1,4 +1,4 @@
-import config from 'config';
+
 // import { authHeader } from '../_helpers';
 
 export const newTaskService = {
@@ -15,7 +15,7 @@ function getAll() {
         // headers: authHeader()
     };
 
-    return fetch(`http://localhost:5000/createTask/`, requestOptions).then(handleResponse);
+    return fetch(`http://localhost:3001/createTask/`, requestOptions).then(handleResponse);
 }
 
 function getById(id) {
@@ -24,7 +24,7 @@ function getById(id) {
         // headers: authHeader()
     };
 
-    return fetch(`http://localhost:5000/tasks/${id}`, requestOptions).then(handleResponse);
+    return fetch(`http://localhost:3001/tasks/${id}`, requestOptions).then(handleResponse);
 }
 
 function createTask(newTask) {
@@ -34,7 +34,7 @@ function createTask(newTask) {
         body: JSON.stringify(newTask)
     };
 
-    return fetch(`http://localhost:5000/createTask/createTask`, requestOptions).then(handleResponse);
+    return fetch(`http://localhost:3001/createTask/createTask`, requestOptions).then(handleResponse);
 }
 
 function update(newTask) {
@@ -44,7 +44,7 @@ function update(newTask) {
         body: JSON.stringify(newTask)
     };
 
-    return fetch(`http://localhost:5000/tasks/${newTask.id}`, requestOptions).then(handleResponse);;
+    return fetch(`http://localhost:3001/tasks/${newTask.id}`, requestOptions).then(handleResponse);;
 }
 
 // prefixed function name with underscore because delete is a reserved word in javascript
@@ -54,7 +54,7 @@ function _delete(id) {
         // headers: authHeader()
     };
 
-    return fetch(`http://localhost:5000/tasks/${id}`, requestOptions).then(handleResponse);
+    return fetch(`http://localhost:3001/tasks/${id}`, requestOptions).then(handleResponse);
 }
 
 function handleResponse(response) {
