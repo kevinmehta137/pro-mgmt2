@@ -10,7 +10,7 @@
     "scripts": {
         "start": "node server.js",
         "pro-mgmt": "npm run start",
-        "install": "yarn install",
+        "install": "install npm",
         "build": "npm run build",
         "heroku-postbuild": "npm run build"
     },
