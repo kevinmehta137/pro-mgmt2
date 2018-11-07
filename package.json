@@ -9,8 +9,9 @@
     },
     "scripts": {
         "start": "node server.js",
-        "pro-mgmt": "npm run start",
-        "build": "npm run build",
+        "pro-mgmt": "cd client && npm run start",
+        "install": "cd client  && npm install",
+        "build": "cd client   && npm run build",
         "heroku-postbuild": "npm run build"
     },
     "dependencies": {
