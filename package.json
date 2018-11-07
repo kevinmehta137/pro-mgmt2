@@ -10,7 +10,7 @@
     "scripts": {
         "start": "node server.js",
         "pro-mgmt": "cd client && npm run start",
-        "build": "cd client   && npm run build",
+        "build": "cd client && npm run build",
         "heroku-postbuild": "npm run build"
     },
     "dependencies": {
