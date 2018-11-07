@@ -9,9 +9,9 @@
     },
     "scripts": {
         "start": "node server.js",
-        "pro-mgmt": "cd pro-mgmt2 && npm run start",
-        "install": "cd pro-mgmt2 && yarn install",
-        "build": "cd pro-mgmt2  && npm run build",
+        "pro-mgmt": "npm run start",
+        "install": "yarn install",
+        "build": "npm run build",
         "heroku-postbuild": "npm run build"
     },
     "dependencies": {
