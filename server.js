@@ -32,13 +32,11 @@ app.use(errorHandler);
 
 // Add routes, both API and view
 // app.use(routes);
-
+var mongourl = "mongodb://kevin:kevin123@ds155313.mlab.com:55313/heroku_nrzrr5t8";
 // Connect to the Mongo DB
 mongoose.connect(
-  process.env.MONGODB_URI ||
-  "mongodb://kevin:kevin123@ds155313.mlab.com:55313/heroku_nrzrr5t8"
+  process.env.MONGODB_URI || mongourl 
 );
-
 // Start the API server
 app.listen(PORT, () =>
   console.log(`🌎  ==> API Server now listening on PORT ${PORT}!`)
