@@ -16,3 +16,8 @@ body.loginPageClass{
     color:inherit;
 }
 
+.logo {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 50px;
+}
+
